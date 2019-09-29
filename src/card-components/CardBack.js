@@ -14,7 +14,9 @@ export default class CardBack extends Component {
     // implement meeeee! See the readme for instructions
     const val = 'No Rating Found';
      if(IMDBRating === null){
-       <h4></h4>
+       <h4>{title}</h4>
+     }else{
+       <img scr={this.props.IMDBRating} />
      }
   }
 
