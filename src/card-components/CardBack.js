@@ -12,7 +12,10 @@ export default class CardBack extends Component {
 
   generateRatingElement = () => {
     // implement meeeee! See the readme for instructions
-     
+    const val = 'No Rating Found';
+     if(IMDBRating === null){
+       <h4></h4>
+     }
   }
 
   render() {
