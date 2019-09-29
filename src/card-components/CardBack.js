@@ -12,8 +12,7 @@ export default class CardBack extends Component {
 
   generateRatingElement = () => {
     // implement meeeee! See the readme for instructions
-     <h4>{this.props.IMDBRating}</h4>
-     <img src={this.props.
+     
   }
 
   render() {
